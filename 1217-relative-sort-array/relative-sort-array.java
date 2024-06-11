@@ -14,7 +14,7 @@ class Solution {
             }
         }
 
-        for(int j=0; j<freq.length; j++) {
+        for(int j=0; j<1001; j++) {
             while(freq[j] > 0){
                 ans[i] = j;
                 freq[j] --;
