@@ -6,7 +6,6 @@ class Solution {
         for (int i = s.length() - 1; i >= 0; i--) {
             if(s.charAt(i) == ' ') {
                 result.append(s.substring(i+1, end)).append(" ");
-                end = i;
                 while(i>=0 && s.charAt(i) == ' '){
                     i--;
                 }
